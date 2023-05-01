@@ -1,0 +1,11 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.App{
+    overflow: hidden;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}

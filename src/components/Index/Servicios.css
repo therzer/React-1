@@ -1,0 +1,58 @@
+.contenido-servicios{
+    display: flex;
+    background-color: #fff;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.descripcion-s{
+    width: 400px;
+    height: 300px;
+    padding: 30px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.descripcion-s>h2{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.descripcion-s h2::after{
+    content: "";
+    display: flex;
+    height: 5px;
+    width: 274px;
+    background-color: #00ff88e7;
+    position: relative;
+    top: -9px;
+    left: 23px;
+}
+
+.cards{
+    display: flex;
+}
+
+.card{
+    width: 200px;
+    height: 300px;
+    padding: 30px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn-s{
+    top: 10%;
+}
+
+.icon-s{
+    font-size: 80px;
+    color: #00ff88e7;
+}
